@@ -1,4 +1,4 @@
-@extends('layouts.app')
+<!-- @extends('layouts.app')
 
 @section('title')
     Store Cart Page
@@ -65,7 +65,7 @@
                         <div class="product-subtitle">USD</div>
                       </td>
                       <td style="width: 20%;">
-                        <form action="{{ route('cart-delete', $cart->products_id) }}" method="POST">
+                        <form action="{{ route('cart-delete', $cart->id) }}" method="POST">
                           @method('DELETE')
                           @csrf
                           <button class="btn btn-remove-cart" type="submit">
@@ -219,6 +219,7 @@
       var locations = new Vue({
         el: "#locations",
         mounted() {
+          AOS.init();
           this.getProvincesData();
         },
         data: {
@@ -250,5 +251,6 @@
           },
         }
       });
+      console.log(locations)
     </script>
-@endpush
+@endpush -->

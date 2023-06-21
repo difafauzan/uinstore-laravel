@@ -15,14 +15,22 @@
                 Transaction Processed!
               </h2>
               <p>
-                Silahkan tunggu konfirmasi email dari kami dan kami akan
-                menginformasikan resi secept mungkin!
+                <!-- Silahkan tunggu konfirmasi email dari kami dan kami akan
+                menginformasikan resi secept mungkin! -->
+
+                Please confirm payment to our whatsapps number, we will process it as soon as possible!
               </p>
               <div>
-                <a href="/dashboard.html" class="btn btn-success w-50 mt-4">
-                  My Dashboard
+                <a href="https://wa.me/628971232202" class="btn btn-success w-50 mt-4">
+                  Pay Now
                 </a>
-                <a href="/index.html" class="btn btn-signup w-50 mt-2">
+                <!-- <a href="" class="btn btn-success w-50 mt-4">
+                  My Dashboard
+                </a> -->
+                <!-- <a href="3" class="btn btn-signup w-50 mt-2">
+                  Go To Shopping
+                </a> -->
+                 <a href="{{ route('home') }}" class="btn btn-signup w-50 mt-2">
                   Go To Shopping
                 </a>
               </div>
